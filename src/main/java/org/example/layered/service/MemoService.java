@@ -10,4 +10,7 @@ public interface MemoService {
 
     List<MemoResponseDto> findAllMemos();
 
+    MemoResponseDto findMemoById(Long id);
+
+
 }
